@@ -40,9 +40,7 @@ app.get('/users', authorizeIfEnoughtUsers, async (req, res) => {
     } catch (error) {
         console.log('error');
     }
-});
-
-app.post('/users', secureInput, (req, res) => {
+}).post('/users', secureInput, (req, res) => {
 
     // try {
     //     const userCreated = await userModel.create(req.body);

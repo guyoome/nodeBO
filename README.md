@@ -1,4 +1,6 @@
 
+Made by tom, Github : tomguillermou
+
 # I/ Exercice Promise & Callback
 # Modifier la connection Mongoose
 Modifier la connection Mongoose à la base de données pour utiliser le principe async/await.
